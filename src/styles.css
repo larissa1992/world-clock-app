@@ -24,16 +24,29 @@ footer {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
 }
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #20506b;
+}
+
+footer a:hover {
+  color: white;
+}
 .container {
   max-width: 300px;
   margin: 0 auto;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 10px;
   background-color: rgba(0, 0, 0 0.9);
   padding: 30px;
   margin-top: 30px;
-  border: 1px solid rgb(206, 197, 206);
+  border: 1px solid rgb(135, 132, 135);
+  background-color: rgb(252, 247, 247, 0.3);
 }
 
 .city {
@@ -58,4 +71,7 @@ footer {
 
 .date {
   opacity: 0.7;
+}
+.allCities {
+  font-size: 20px;
 }
